@@ -1,0 +1,11 @@
+<li *ngFor="let book of books">
+<a>
+    {{book.author}}
+</a>
+</li>
+<button (click)="gotoHome('App')"> goto homepage</button>
+<br>
+
+<input type="text">
+
+<router-outlet></router-outlet>
